@@ -1,0 +1,95 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+  body {
+      font-family: "Roboto", sans-serif;
+  }
+
+  html {
+      background-image: url(../images/bg-repeat.jpg);
+      background-size: 402px 800px;
+  }
+
+  main {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+  }
+
+  /* Titulos e parágrafos */
+
+  .conteudos h1 {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 900;
+      padding-bottom: 11px;
+  }
+
+  .conteudos p {
+      color: #fff;
+      font-size: 15px;
+      font-weight: 400;
+  }
+
+  /* */
+
+  /* Painel de informações */
+
+  .painel {
+      width: 340px;
+      height: 378px;
+      background-color: #fff;
+      margin-left: 72.5px;
+  }
+
+  .painel input,
+  textarea {
+      padding: 10px;
+      margin: 20px 0 0 21px;
+      font-size: 15px;
+      font-weight: 700;
+      border: 1px solid;
+      border-radius: 5px;
+      width: 298px;
+      height: 35px;
+  }
+
+  .painel textarea {
+      resize: none;
+      width: 298px;
+      height: 100px;
+  }
+
+  .painel .campos-obrigatorios {
+      color: #000;
+      font-size: 15px;
+      font-weight: 400;
+      margin: 12px 0 0 15px;
+  }
+
+  .painel .botao-enviar {
+      cursor: pointer;
+      width: 298px;
+      height: 41px;
+      background-color: #3CCC87;
+      border-radius: 5px;
+      margin-left: 21px;
+      color: #fff;
+      font-size: 15px;
+      font-weight: 700;
+      margin-top: 5px;
+  }
+
+  /* */
+
+  /* Classes para uso no JavaScript */
+
+  .campo-vermelho {
+      border: 1px solid #F52E2E !important;
+  }
+
+  .campo-verde {
+      border: 1px solid #00C22B !important;
+  }
+
+  /* */
