@@ -6,7 +6,8 @@
 
   html {
       background-image: url(../images/bg-repeat.jpg);
-      background-size: 402px 800px;
+      background-size: 1440px;
+      background-size: contain;
   }
 
   main {
